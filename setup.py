@@ -50,7 +50,8 @@ REQUIRED_PKGS = [
     'protobuf>=3.6.1',
     'requests>=2.19.0',
     'six',
-    'tensorflow-metadata',
+    'tensorflow-data-validation>=0.15,<0.16',
+    'tensorflow-metadata>=0.15,<0.16',
     'termcolor',
     'tqdm',
     'wrapt',
@@ -65,7 +66,6 @@ REQUIRED_PKGS = [
 ]
 
 TESTS_REQUIRE = [
-    'apache-beam',
     'jupyter',
     'mako',
     'pytest',
